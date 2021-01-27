@@ -1,0 +1,36 @@
+body{
+    background-image: url('background.jpg');
+}
+#inputDiv{
+    position: relative;
+    left: 40%;
+    width: 20%;
+}
+#myTime{
+    width: 65%;
+}
+.notePost{
+    background-image: url(note.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: calc(100% / 3);
+    padding: 4.5rem 2rem 1rem 2rem;
+    text-align: center;
+    position: relative;
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btnExit{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@media only screen and (max-width:600px){
+    .notePost {width: 100%;}
+    #inputDiv {width: 100%;
+               left: 0;}
+}
